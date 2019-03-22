@@ -1,0 +1,7 @@
+cat >/etc/yum.repos.d/rhel-7-server-rpms.repo <<EOL
+[rhel-7-server-rpms]
+name=rhel7-server-rpms-Repository
+baseurl=http://88.8.196.120/repo/rhel-7-server-rpms/
+gpgcheck=0
+enabled=1
+EOL
